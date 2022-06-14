@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('./indian_team/bg-theme.jpg') no-repeat;
+    background: url('./assets/indian_team/bg-theme.jpg') no-repeat;
     background-size: cover;
 }
 .srilankan_batting, .srilankan_bowling {
