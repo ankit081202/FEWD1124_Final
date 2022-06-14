@@ -16,11 +16,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('/FEWD1124_CodeAlong/assets/indian_team/bg-theme.jpg') no-repeat;
+    background: url('./indian_team/bg-theme.jpg') no-repeat;
     background-size: cover;
 }
 .srilankan_batting, .srilankan_bowling {
-    background: url('/FEWD1124_CodeAlong/assets/srilankan_team/flag.jpg');
+    background: url('./assets/srilankan_team/flag.jpg');
     background-size: cover;
 }
 .srilankan_batting > h1, .srilankan_bowling > h1{
