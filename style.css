@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.indian_batting, .indian_bowling, .srilankan_batting,.srilankan_batting,.srilankan_bowling{
+.indian_batting, .indian_bowling{
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -20,6 +20,12 @@ body{
     background-size: cover;
 }
 .srilankan_batting, .srilankan_bowling {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: url('./assets/srilankan_team/flag.jpg') no-repeat;
     background-size: cover;
 }
