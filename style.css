@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.indian_batting, .indian_bowling, .srilankan_batting,.srilankan_batting,.srilankan_bowling{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('/FEWD1124_CodeAlong/assets/indian_team/bg-theme.jpg') no-repeat;
+    background-size: cover;
+}
+.srilankan_batting, .srilankan_bowling {
+    background: url('/FEWD1124_CodeAlong/assets/srilankan_team/flag.jpg');
+    background-size: cover;
+}
+.srilankan_batting > h1, .srilankan_bowling > h1{
+    color: rgb(255, 255, 255);
+}
+table{
+    border: 1px solid;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+thead{
+    background-color: rgb(166, 162, 157);
+}
+tfoot{
+    background-color: rgb(166, 162, 157);
+}
+td, th {
+    border: 1px solid #999;
+    padding: 9px 20px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
